@@ -1,0 +1,24 @@
+<html lang='ja'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viesport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <div class="container">
+        <div class="col-4">
+            <a class="blog-header-logo text-dark" style="font-size: 1rem; margin:0 auto; text-align:center">みるクーポンアプリ</a>
+        </div>
+    </div>
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light p-3">
+        <a class="navbar-brand pl-3" href="/" style="font-size: 2rem; margin:0 auto; text-align:center">店名</a>
+    </nav>
+    {% block body %}{% endblock %}
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.class{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.map-wrapper{
+    max-width: 640px; /* 最大幅 */
+    min-width: 280px; /* 最小幅 */
+    margin: 0, auto;
+    padding: 4px;
+    border: 1px solid rgb(111, 210, 94); /* ボーダー（枠線） */
+}
+.googlemap {
+    position: relative; /*　子要素の基準とする　*/
+    padding-bottom: 75%; /*　表示するパティング領域の縦横比(4:3) */
+    height: 0;
+    overflow: hidden;
+}
+.googlemap iframe {
+    position: absolute; /* 親要素のパディング領域に配置するために絶対配置を指定 */
+    top: 0; /* 垂直方向トップに配置 */
+    left: 0; /* 水平方向左に配置 */
+    width: 100%; /* 親コンテナの幅いっぱいに表示 */
+    height: 100%; /* 親コンテナの高さいっぱに表示 */
+}
