@@ -10,8 +10,12 @@ app = Flask(__name__, static_url_path='/static')
 app.config['DEBUG'] = True
 
 @app.route('/')
+def top():
+    return render_template('top.html')
+
+@app.route('/top/emp')
 def emp():
     return render_template('emp.html', title="Flask")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

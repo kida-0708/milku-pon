@@ -1,12 +1,59 @@
-.class{
-    display:block;
-    margin-left:auto;
+.tp{
+    color: cornflowerblue;
+    font-size: 600%;
+    font-family: cursive;
+    text-decoration: none;
+}
+.tp a{
+    text-align: center;
+    display: block;
+}
+.h1{
+    color:blue;
+    font-size: 250%;
+    font-family: cursive;
+}
+.h2{
+    color: lawngreen;
+    font-size: 500%;
+    font-family: 'Amatic SC', cursive;
+    border: 3px solid #ccc;
+    border-radius: 3em .7em 2em .7em/.7em 2em .7em 3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.h2 a{
+    text-align: center;
+    display: block;
+}
+tdf{
+    font-family: fantasy;
+}
+.divs{
+    width:100%;
     margin-right:auto;
+    margin-left:auto;
+    margin: 0 auto;
+}
+.ttbh{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 250%;
+    font-family: Courier New;
+}
+.tbh{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+}
+tds{
+    text-align-last: justify;
 }
 .map-wrapper{
-    max-width: 640px; /* 最大幅 */
-    min-width: 280px; /* 最小幅 */
-    margin: 0, auto;
+    max-width: 75%; /* 最大幅 */
+    min-width: 20%; /* 最小幅 */
+    margin: 0 auto;
     padding: 4px;
     border: 1px solid rgb(111, 210, 94); /* ボーダー（枠線） */
 }
