@@ -1,6 +1,6 @@
 .tp{
     color: cornflowerblue;
-    font-size: 600%;
+    font-size: 400%;
     font-family: cursive;
     text-decoration: none;
 }
@@ -26,7 +26,7 @@
     text-align: center;
     display: block;
 }
-tdf{
+.tdf{
     font-family: fantasy;
 }
 .divs{
