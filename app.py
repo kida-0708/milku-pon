@@ -13,9 +13,10 @@ app.config['DEBUG'] = True
 def top():
     return render_template('top.html')
 
-@app.route('/top/emp')
+@app.route('/top/nerdbird')
 def emp():
-    return render_template('emp.html', title="Flask")
+    return render_template('nerdbird.html', title="Flask")
 
 if __name__ == '__main__':
+    #app.run(debug=True)
     app.run()

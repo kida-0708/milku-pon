@@ -47,8 +47,15 @@
     margin: 0 auto;
     text-align: center;
 }
-tds{
+.tds{
     text-align-last: justify;
+}
+.tdss{
+    text-align: center;
+    vertical-align: middle;
+}
+.td[colspan]{
+    text-align: center;
 }
 .map-wrapper{
     max-width: 75%; /* 最大幅 */
@@ -69,4 +76,26 @@ tds{
     left: 0; /* 水平方向左に配置 */
     width: 100%; /* 親コンテナの幅いっぱいに表示 */
     height: 100%; /* 親コンテナの高さいっぱに表示 */
+}
+.img-disp {
+    display:block;
+    margin: 0 auto;
+    width: 50%;
+    overflow:hidden;
+}
+
+.img-wrap {
+    width: 200%;
+    height: 100%;
+    transition: 1s;
+    display: flex;
+}
+
+.img-wrap img{
+    display: block;
+    width: 50%;
+}
+
+.img-disp:hover .img-wrap{
+    transform: translateX();
 }
